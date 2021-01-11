@@ -26,16 +26,20 @@ html, body{
 
 }
 
+.foto{
+    display: inline;
+}
 
 .formacao{
-    position: relative;
+    position: absolute;
     margin-left: 50%;
-    
 }
 
 li{
     marker: none;
     position:relative;
+    display: inline;
+    margin-left: 250;
 }
 
 img{
@@ -44,7 +48,5 @@ img{
     border-width: 5px;
     border-color:whitesmoke;
     margin-left: 15%;
-    margin-top: 10%;
-   
-    
+    margin-top: 10%;    
 }
