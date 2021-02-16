@@ -15,7 +15,6 @@ html, body{
     text-align: center;
     max-height: 10%;
     height: 25px;
-    min-height: 5%;
     margin: 0 auto;
     margin-top: 0;
     padding-top: 0;
@@ -37,8 +36,9 @@ html, body{
 li{
     marker: none;
     position:relative;
-    display: inline;
+    display: inline-block;
     margin-left: 150px;
+    height: 80px;
 }
 
 ul{
@@ -97,7 +97,7 @@ h2{
     font-size: 200%;
 }
 
-span:hover{
+#Trybe:hover{
     color: #006400;;
 }
 
@@ -114,17 +114,29 @@ a{
     color:midnightblue;
 }
 
-#Marcelo{
-    animation-name: marcelo;
+.nome1{
+    animation-name: nome1;
     animation-duration: 5s;
 }
 
-@keyframes marcelo {
-    /*from {color: black}
-    to {color: white;}*/
-    20% {left: 20%; color: #191970;}
-    40% {left: 40%; color:#228B22}
-    60% {left: 60%; color:#CD853F}
-    80% {left: 80%; color:#DC143C}
-    100% {left: 100%; color:#F5FFFA}
+.nome2{
+    animation-name: nome2;
+    animation-duration: 5s;
+}
+
+@keyframes nome1 {
+    0% {left: 0%; color:#FFFFFF}
+    20% {left: 20%; color: #000000;}
+    40% {left: 40%; color:#FFFFFF}
+    60% {left: 60%; color:#000000}
+    80% {left: 80%; color:#FFFFFF}
+    100% {left: 100%; color:#000000}
+  }
+
+  @keyframes nome2 {
+    20% {left: 20%; color: #FFFFFF;}
+    40% {left: 40%; color:#000000}
+    60% {left: 60%; color:#FFFFFF}
+    80% {left: 80%; color:#000000}
+    100% {left: 100%; color:#FFFFFF}
   }
