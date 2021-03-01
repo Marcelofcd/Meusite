@@ -59,7 +59,8 @@ li:hover {
   margin-left: 15%;
   margin-top: 10%;
   float: left;
-  width: 20%;
+  width: 200px;
+  max-width: 15%;
   animation-name: fotografia;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -173,7 +174,7 @@ a {
   }
 
   footer p {
-  margin-left: 90px;
+  margin-left: 60px;
   margin-top: 90px;
   border-style: solid;
   border-color: gray;
@@ -188,6 +189,10 @@ a {
 
   footer p a::hover {
   background-color: blue;
+  }
+
+  footer > p > a > img{
+    float:right;
   }
   
   .tecnologias {
@@ -251,6 +256,17 @@ a {
   width: 30px;
   margin-left: 30px;
 }
+
+#gmail {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#linkedin {
+  width: 30px;
+  margin-left: 30px;
+}
+
 
 li .tech {
   max-height: 50px;
