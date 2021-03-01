@@ -60,6 +60,15 @@ li:hover {
   margin-top: 10%;
   float: left;
   width: 20%;
+  animation-name: fotografia;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fotografia {
+  from {margin-left: -400px; transform: rotate(0);}
+  to {left: 300px; transform: rotate(360deg)}
 }
 
 .band {
