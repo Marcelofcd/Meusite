@@ -23,12 +23,12 @@ html, body {
 
 }
 
-.foto {
+.photo {
   float: left;
   height: 550px;
 }
 
-.formacao {
+.formation {
   position: absolute;
   margin-left: 50%;
 }
@@ -51,7 +51,7 @@ li:hover {
   color:darkblue;
 }
 
-.imagem {
+.image {
   border-radius: 45%;
   border-style: solid;
   border-width: 5px;
@@ -61,35 +61,35 @@ li:hover {
   float: left;
   width: 200px;
   max-width: 15%;
-  animation-name: fotografia;
+  animation-name: photograph;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   
 }
 
-@keyframes fotografia {
+@keyframes photograph {
   from {margin-left: -400px; transform: rotate(0);}
   to {left: 300px; transform: rotate(360deg)}
 }
 
-.band {
+.flag {
     
   padding-right: 15px;
   width: 20px;
   height: 15px;
 }
 
-.band:hover {
+.flag:hover {
   opacity: 0.5;
 }
 
-.linguagem {
+.language {
   padding-right: 15px;
   display: inline;
   margin-left: 5%;
 }
 
-.quemsou {
+.whoImI {
   margin-top: 10%;
   padding-left: 40%;
   margin-right: 200;
@@ -97,13 +97,13 @@ li:hover {
 
 }
 
-#textoquemsou {
+#whoImItext {
   text-align: justify;
   font-family: 'Actor', sans-serif;
   line-height: 1.5;
 }
 
-#nome{
+#name{
   font-family: 'Oldenburg', cursive;
   font-size: 200%;
 }
@@ -137,17 +137,17 @@ a {
   color:rgb(112, 25, 25);
 }
 
-.nome1 {
+.name1 {
   animation-name: nome1;
   animation-duration: 5s;
 }
 
-.nome2 {
+.name2 {
   animation-name: nome2;
   animation-duration: 5s;
 }
 
-@keyframes nome1 {
+@keyframes name1 {
   0% {left: 0%; color:#FFFFFF}
   20% {left: 20%; color: #000000;}
   40% {left: 40%; color:#FFFFFF}
@@ -156,7 +156,7 @@ a {
   100% {left: 100%; color:#000000}
   }
 
-  @keyframes nome2 {
+  @keyframes name2 {
   20% {left: 20%; color: #FFFFFF;}
   40% {left: 40%; color:#000000}
   60% {left: 60%; color:#FFFFFF}
@@ -195,7 +195,7 @@ a {
     float:right;
   }
   
-  .tecnologias {
+  .technologies {
   background-color: #FFFFFF;
   height: 550px;
   width: 100%;
@@ -276,7 +276,7 @@ table, tbody, td, tr{
   align-items: center;
 }
 
-.alinha {
+.align {
   width: 120px;
 }
 
