@@ -83,7 +83,7 @@ li:hover {
   opacity: 0.5;
 }
 
-.linguagem {
+.lingua {
   padding-right: 15px;
   display: inline;
   margin-left: 5%;
@@ -235,6 +235,7 @@ a {
 #github {
   width: 30px;
   margin-left: 25px;
+  background-color: #FFFFFF;
 }
 
 #git {
