@@ -267,7 +267,25 @@ a {
   margin-left: 30px;
 }
 
-
 li .tech {
   max-height: 50px;
+}
+
+table, tbody, td, tr{
+  text-align: center;
+  align-items: center;
+}
+
+.alinha {
+  width: 120px;
+}
+
+td {
+  left: 120px;
+  width: 25%;
+  height: 70%;
+  margin-left: 70px;
+  vertical-align: middle;
+  margin-bottom: 0;
+  color: #FFFFFF;
 }
