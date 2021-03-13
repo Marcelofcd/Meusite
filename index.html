@@ -3,7 +3,6 @@
         <title> Marcelo F C Dantas </title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
             <meta charset="utf-8" />
-            <script src="js/script.js"> </script>
             <link href="css/style.css" type="text/css" rel="stylesheet" />
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Actor&family=Oldenburg&display=swap" rel="stylesheet">
@@ -14,13 +13,13 @@
 
             <nav class="menu">
                 <ul>
-                        <li><a href="#Teologia"> Teologia </a> </li>
-                        <li> <a href="#TI"> Tecnologia da Informação </a> </li>
-                        <li> <a href="#Direito"> Direito </a> </li>
-                        <li> <a href="#Outros"> Outros </a> </li>
+                        <li id="Theology"><a href="#Teologia"> Teologia </a> </li>
+                        <li id="IT"> <a href="#TI"> Tecnologia da Informação </a> </li>
+                        <li id="Law"> <a href="#Direito"> Direito </a> </li>
+                        <li id="Others"> <a href="#Outros"> Outros </a> </li>
                     <div class="lingua">
-                        <a href="#brazil"><img class="band" src="foto/brazil.png" alt="português"/></a>
-                        <a href="index_english.html"><img class="band" src="foto/america.png" alt="english"/></div></a>
+                        <a href="#brazil"><img class="band" id='brazil' src="foto/brazil.png" alt="português"/></a>
+                        <a href="#english"><img class="band" id='english' src="foto/inglaterra.png" alt="english"/></div></a>
                     </div> <!--lingua-->
                 </ul>                    
             </nav> <!-- menu -->
@@ -32,17 +31,17 @@
             <div class="quemsou">
                 <h2 id='nome'><span class="nome1"> Marcelo <span class="nome2">Figueira</span> <span class="nome1">Correa</span> <span class="nome2">Dantas</span></h2>
                 <br>
-                <p id="textoquemsou">Sou brasileiro, natural do Rio de Janeiro e, atualmente, moro na cidade maravilhosa.
+                <p id="textoquemsou"><span id='text1'> Sou brasileiro, natural do Rio de Janeiro e, atualmente, moro na cidade maravilhosa.</span>
                     <br>
-                    Advogado, registrado na OAB/RJ, e servidor público da UFRJ, em transição de carreira para trabalhar com programação.
+                    <span id='text2'>Advogado, registrado na OAB/RJ, e servidor público da UFRJ, em transição de carreira para trabalhar com programação.</span>
                     <br>
-                    Sou autodidata e venho estudando Python, por conta própria por ter me apaixonado por esta linguagem. Sempre que possível, me inscrevo em algum curso/bootcamp para me qualificar mais, como fiz com o <a href="https://www.igti.com.br/custom/bootcamp-analista-de-machine-learning/" target="_blank"><span id="IGTI">Bootcamp do IGTI de Machine Learning</span></a>, o <a href="https://digitalinnovation.one/bootcamps/azure-e-serverless" target="_blank"><span id="DIO">bootcamp de Cloud Computing e Serverless da Digital Innovation One</span></a> e o <a href="https://selecao.ifro.edu.br/cursos-fic/744-edital-n-32-2020-selecao-para-cursos-de-formacao-inicial-do-programa-novos-caminhos-modalidade-ead" target="_blank"><span id="IFRO">curso de Administrador de Banco de Dados do IFRO</span></a>.
+                    <span id='text3'>Sou autodidata e venho estudando Python, por conta própria por ter me apaixonado por esta linguagem. Sempre que possível, me inscrevo em algum curso/bootcamp para me qualificar mais, como fiz com o</span> <a href="https://www.igti.com.br/custom/bootcamp-analista-de-machine-learning/" target="_blank"><span id="IGTI">Bootcamp do IGTI de Machine Learning</span></a><span id="text4">, o </span><a href="https://digitalinnovation.one/bootcamps/azure-e-serverless" target="_blank"><span id="DIO">bootcamp de Cloud Computing e Serverless da Digital Innovation One</span></a><span id="text5"> e o </span><a href="https://selecao.ifro.edu.br/cursos-fic/744-edital-n-32-2020-selecao-para-cursos-de-formacao-inicial-do-programa-novos-caminhos-modalidade-ead" target="_blank"><span id="IFRO">curso de Administrador de Banco de Dados do IFRO.</span></a>
                     <br>
-                    Estou estudando <a href="https://www.betrybe.com/" target="_blank"><span id="Trybe">desenvolvimento web na Trybe</span></a>, e cursando faculdade de <a href="https://www.cruzeirodosulvirtual.com.br/graduacao/analise-e-desenvolvimento-de-sistemas/" target="_blank"><span id="cruzeiro"> Análise e desenvolvimento de sistemas na Universidade Cruzeiro do Sul</span></a> e <a href="http://www.uff.br/?q=curso/tecnologia-em-sistemas-de-computacao-ead/1122221/tecnologico/niteroi" target="_blank"><span id="uff">Sistemas da computação na UFF</span></a>.
+                    <span id='text6'>Estou estudando</span> <a href="https://www.betrybe.com/" target="_blank"><span id="Trybe">desenvolvimento web na Trybe</span></a><span id="text7"> e cursando faculdade de </span><a href="https://www.cruzeirodosulvirtual.com.br/graduacao/analise-e-desenvolvimento-de-sistemas/" target="_blank"><span id="cruzeiro"> Análise e desenvolvimento de sistemas na Universidade Cruzeiro do Sul</span></a><span id="text8"> e </span><a href="http://www.uff.br/?q=curso/tecnologia-em-sistemas-de-computacao-ead/1122221/tecnologico/niteroi" target="_blank"><span id="uff">Sistemas da computação na UFF.</span></a>
                     <br>
-                    Gosto de ler e, preciso, estar sempre estudando alguma coisa.
+                    <span id='text9'>Gosto de ler e, preciso, estar sempre estudando alguma coisa.</span>
                     <br>
-                    Sou movido a desafios, resiliente, curioso e aprendo rápido, gosto de trabalhar com pessoas que me inspiram e exigem o meu melhor.
+                    <span id='text10'>Sou movido a desafios, resiliente, curioso e aprendo rápido, gosto de trabalhar com pessoas que me inspiram e exigem o meu melhor.</span>
                 </p>
             </div>
         </section> <!-- foto -->
@@ -96,5 +95,6 @@
                 </tbody>
             </table>
         </footer>
+        <script src="js/script.js"> </script>
     </body>
 </html>
