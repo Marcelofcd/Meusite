@@ -82,3 +82,5 @@ function ChangeLinkEnglish() {
 function ChangeLinkPortuguese() {
   document.getElementById('linkedin').href = 'https://www.linkedin.com/in/marcelofcdantas';
 }
+
+window.onload = ChangeToPortuguese();
