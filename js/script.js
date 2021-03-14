@@ -83,4 +83,9 @@ function ChangeLinkPortuguese() {
   document.getElementById('linkedin').href = 'https://www.linkedin.com/in/marcelofcdantas';
 }
 
+let alert = document.querySelector('.emConstrucao');
+alert.addEventListener('click', function (){
+  window.alert('Site em construção. Link ainda indisponível')
+});
+
 window.onload = ChangeToPortuguese();
