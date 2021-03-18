@@ -35,10 +35,10 @@ function ChangeToEnglish() {
   whoAmI2.innerHTML = 'Lawyer and civil servant of Federal University of Rio de Janeiro, in transition of career to work as System Developer.';
   whoAmI3.innerHTML = "I'm self-taught and I've been studying Python, by my self after 'being in love' for this language. Whenever possible, I enroll in a course/bootcamp to get more qualified, as I did with";
   whoAmI4.innerHTML = ', the ';
-  DIO.innerHTML = "Cloud Computing and Serverless's bootcamp of Digital Innovation One";
+  DIO.innerHTML = "Cloud Computing and Serverless's Bootcamp of Digital Innovation One";
   IGTI.innerHTML = "Machine Learning's Bootcamp from IGTI";
-  whoAmI5.innerHTML = ' and the ';
-  IFRO.innerHTML = 'course of Database Administrator from IFRO.';
+  whoAmI5.innerHTML = ' and the course of ';
+  IFRO.innerHTML = 'Database Administrator from IFRO.';
   whoAmI6.innerHTML = "I'm studying ";
   trybe.innerHTML = 'web development at Trybe';
   whoAmI7.innerHTML = ", and I'm graduating in Faculty of  ";
@@ -60,10 +60,10 @@ function ChangeToPortuguese() {
   whoAmI2.innerHTML = 'Advogado, registrado na OAB/RJ, e servidor público da UFRJ, em transição de carreira para trabalhar com programação.';
   whoAmI3.innerHTML = 'Sou autodidata e venho estudando Python, por conta própria por ter me apaixonado por esta linguagem. Sempre que possível, me inscrevo em algum curso/bootcamp para me qualificar mais, como fiz com o';
   whoAmI4.innerHTML = ', o ';
-  DIO.innerHTML = 'bootcamp de Cloud Computing e Serverless da Digital Innovation One';
+  DIO.innerHTML = 'Bootcamp de Cloud Computing e Serverless da Digital Innovation One';
   IGTI.innerHTML = 'Bootcamp do IGTI de Machine Learning';
-  whoAmI5.innerHTML = ' e o ';
-  IFRO.innerHTML = 'curso de Administrador de Banco de Dados do IFRO.';
+  whoAmI5.innerHTML = ' e o curso de ';
+  IFRO.innerHTML = 'Administrador de Banco de Dados do IFRO.';
   whoAmI6.innerHTML = 'Estou estudando';
   trybe.innerHTML = 'desenvolvimento web na Trybe';
   whoAmI7.innerHTML = ' e cursando faculdade de ';
