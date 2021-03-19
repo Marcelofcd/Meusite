@@ -15,7 +15,6 @@ html, body {
   max-height: 10%;
   height: 30px;
   margin: 0 auto;
-  margin-top: 0;
   padding-top: 0;
   padding-left: 0px;
   text-decoration: none;
@@ -39,11 +38,11 @@ nav ul li {
   margin-left: 140px;
   height: 15px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 ul {
   padding-inline-start: -40px !important;
-
 }
 
 .imagem {

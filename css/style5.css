@@ -15,7 +15,6 @@ html, body {
   max-height: 10%;
   height: 30px;
   margin: 0 auto;
-  margin-top: 0;
   padding-top: 0;
   padding-left: 0px;
   text-decoration: none;
@@ -36,9 +35,10 @@ nav ul li {
   marker: none;
   position:relative;
   display: inline-block;
-  margin-left: 10px;
-  height: 80px;
+  margin-left: 140px;
+  height:15px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 ul {
