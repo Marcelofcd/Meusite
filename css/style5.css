@@ -1,0 +1,295 @@
+* {              
+  margin: 0;
+}
+
+html, body {
+  background-color:#080d3f;
+  height: 100%;
+}
+
+.menu {
+  position: relative;
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  max-height: 10%;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 0px;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.foto {
+  float: left;
+  height: 550px;
+}
+
+nav ul li {
+  marker: none;
+  position:relative;
+  display: inline-block;
+  margin-left: 140px;
+  height: 80px;
+  margin-top: 5px;
+}
+
+ul {
+  padding-inline-start: -40px !important;
+
+}
+
+.imagem {
+  border-radius: 45%;
+  border-style: solid;
+  border-width: 5px;
+  border-color:whitesmoke;
+  margin-left: 15%;
+  margin-top: 10%;
+  float: left;
+  width: 200px;
+  max-width: 15%;
+  animation-name: fotografia;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fotografia {
+  from {margin-left: -400px; transform: rotate(0);}
+  to {left: 300px; transform: rotate(360deg)}
+}
+
+.band {
+  padding-right: 15px;
+  width: 20px;
+  height: 15px;
+}
+
+.band:hover {
+  opacity: 0.5;
+}
+
+.lingua {
+  padding-right: 15px;
+  display: inline;
+  margin-left: 5%;
+}
+
+.quemsou {
+  margin-top: 10%;
+  padding-left: 40%;
+  margin-right: 200;
+  text-align: justify;
+}
+
+#textoquemsou {
+  text-align: justify;
+  font-family: 'Actor', sans-serif;
+  line-height: 1.5;
+}
+
+#nome{
+  font-family: 'Oldenburg', cursive;
+  font-size: 200%;
+}
+
+#Trybe:hover {
+  color: #006400;;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#cruzeiro:hover {
+  color: chocolate;
+}
+
+#uff:hover {
+  color:midnightblue;
+}
+
+#IGTI:hover {
+  color:rgb(112, 71, 25);
+}
+
+#DIO:hover {
+  color:rgba(238, 238, 234, 0.541);
+}
+
+#IFRO:hover {
+  color:rgb(112, 25, 25);
+}
+
+.nome1 {
+  animation-name: nome1;
+  animation-duration: 5s;
+}
+
+.nome2 {
+  animation-name: nome2;
+  animation-duration: 5s;
+}
+
+@keyframes nome1 {
+  0% {left: 0%; color:#FFFFFF}
+  20% {left: 20%; color: #000000;}
+  40% {left: 40%; color:#FFFFFF}
+  60% {left: 60%; color:#000000}
+  80% {left: 80%; color:#FFFFFF}
+  100% {left: 100%; color:#000000}
+  }
+
+@keyframes nome2 {
+  20% {left: 20%; color: #FFFFFF;}
+  40% {left: 40%; color:#000000}
+  60% {left: 60%; color:#FFFFFF}
+  80% {left: 80%; color:#000000}
+  100% {left: 100%; color:#FFFFFF}
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items:baseline;
+  justify-content: space-evenly;
+}
+
+footer p {
+  border-style: solid;
+  border-color: gray;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+footer a::hover {
+  background-color: blue;
+}
+  
+.tecnologias {
+  background-color: #FFFFFF;
+  height: 550px;
+  width: 100%;
+  margin-top: 600px;
+}
+
+#tech {
+  margin-left: 180px;
+  padding-top: 50px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.tech {
+  font-family: 'Share Tech Mono', monospace;
+  padding-top: 15px;
+  margin-left: 180px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.tech:hover {
+  color:darkblue;
+}
+
+#html {
+  width: 30px;
+  margin-left: 10px;
+}
+
+#css {
+  width: 20px;
+  margin-left: 25px;
+}
+
+#js {
+  width: 40px;
+  height: 35px;
+  margin-left: 20px;
+}
+
+#github {
+  width: 30px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+
+#git {
+  width: 30px;
+  margin-left: 25px;
+}
+
+#linux {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#python {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#sql {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#gmail {
+  width: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#linkedin {
+  width: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+li .tech {
+  max-height: 50px;
+}
+
+#footgmail a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+#footgit a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+#footgit a img{
+  margin-bottom: 10px;
+}
+
+#footlinked a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
