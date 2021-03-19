@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+header {
+  display: flex;
+}
+
 html, body {
   height: 100%;
 }
@@ -14,7 +18,6 @@ html, body {
   width: 100%;
   text-align: center;
   max-height: 10%;
-  height: 30px;
   margin: 0 auto;
   padding-top: 0;
   padding-left: 0;
@@ -55,6 +58,7 @@ nav ul {
 
 #Theology:hover {
   background-color: #9966CC;
+  color: whitesmoke;
 }
 
 #IT:hover {
@@ -64,6 +68,7 @@ nav ul {
 
 #Law:hover {
   background-color: #9b111e;
+  color: whitesmoke;
 }
 
 #Others:hover {
@@ -294,7 +299,8 @@ li .tech {
 footer {
   background-color: #000000;
   width: 100%;
-  height: 120px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   display: flex;
   color: #FFFFFF;
   flex-wrap: wrap;
@@ -328,6 +334,13 @@ footer a::hover {
   width: 100%;
 }
 
+#github2 {
+  width: 30px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+
 #footgit a {
   display: flex;
   justify-content: center;
@@ -348,4 +361,101 @@ footer a::hover {
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 375px){
+  
+  nav ul {
+    marker: none;
+    flex-direction: column;
+    padding: 0;
+  }
+
+
+  .lingua {
+    position: absolute;
+    margin-left: 65%;
+  }
+  
+  .foto {
+    flex-direction: column;
+  }
+
+  .imagem {
+    max-width: 100px;
+    margin: 20px auto;
+  }
+
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .tech {
+    margin-top: 5px;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+  }
+
+  #tech {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .tecnologias ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+  }
+
+  #footgmail {
+    align-self: center;
+  }
+
+  #footgit{
+    align-self: center;
+  }
+
+  #footlinked{
+    align-self: center;
+  }
+
+  #gmail {
+    margin-left: 0;
+  }
+  
+  #github2 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #linkedin {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  footer div a img {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  footer div a {
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+  }
+
 }
