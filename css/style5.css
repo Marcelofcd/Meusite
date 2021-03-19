@@ -22,6 +22,11 @@ html, body {
   font-size: 120%;
 }
 
+#imghome {
+  width: 20px;
+  margin-left: 0 !important;
+}
+
 .foto {
   float: left;
   height: 550px;
@@ -31,14 +36,13 @@ nav ul li {
   marker: none;
   position:relative;
   display: inline-block;
-  margin-left: 140px;
+  margin-left: 10px;
   height: 80px;
   margin-top: 5px;
 }
 
 ul {
   padding-inline-start: -40px !important;
-
 }
 
 .imagem {
