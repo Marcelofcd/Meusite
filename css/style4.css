@@ -1,62 +1,150 @@
 * {              
   margin: 0;
+  color: #000000;
+}
+
+header {
+  display: flex;
 }
 
 html, body {
-  background-color:rgb(41, 40, 40);
   height: 100%;
+  background-color:rgb(41, 40, 40);
+}
+
+#menumobile{
+  display: none;
 }
 
 .menu {
   position: relative;
+  display: flex;
+  list-style: none;
   background-color: aliceblue;
   width: 100%;
   text-align: center;
   max-height: 10%;
-  height: 30px;
   margin: 0 auto;
-  margin-top: 0;
   padding-top: 0;
-  padding-left: 0px;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 120%;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  marker: none;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 0px;
+  height: 30px;
+  margin-top: 0;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#home {
+  background-color: aliceblue;
+  width: 100%;
+  list-style: none;
+  max-height: 10%;
+  height: 30px;
+  padding-top: 0;
+  padding-left: 0;
   text-decoration: none;
   font-size: 120%;
 }
 
+#imghome:hover {
+  background-color: darkgrey;
+}
+
+#Hometext {
+  display: none;
+}
+
+#Theology:hover {
+  background-color: #9966CC;
+  color: whitesmoke;
+}
+
+#IT:hover {
+  background-color: rgb(41, 40, 40);
+  color: whitesmoke;
+}
+
+#Law:hover {
+  background-color: #9b111e;
+  color: whitesmoke;
+}
+
+#Others:hover {
+  background-color: #080d3f;
+  color: whitesmoke;
+}
+
 #imghome {
+  height: 20px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul a li {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  overflow-wrap: normal;
+}
+
+.band {
+  padding-right: 30px;
   width: 20px;
-  margin-left: 0 !important;
+  height: 15px;
+}
+
+.band:hover {
+  opacity: 0.5;
+}
+
+.lingua {
+  margin-top: 5px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
 .foto {
-  float: left;
-  height: 550px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 64px;
+  background-color:darkgrey;
 }
 
-nav ul li {
-  marker: none;
-  position:relative;
-  display: inline-block;
-  margin-left: 140px;
-  height: 80px;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
-ul {
-  padding-inline-start: -40px !important;
-
+.marginTrue {
+  padding-top: 240px;
 }
 
 .imagem {
-  border-radius: 45%;
+  border-radius: 55%;
   border-style: solid;
   border-width: 5px;
   border-color:whitesmoke;
   margin-left: 15%;
   margin-top: 10%;
   float: left;
-  width: 200px;
-  max-width: 15%;
+  max-height: 250px;
   animation-name: fotografia;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -67,30 +155,15 @@ ul {
   to {left: 300px; transform: rotate(360deg)}
 }
 
-.band {
-  padding-right: 15px;
-  width: 20px;
-  height: 15px;
-}
-
-.band:hover {
-  opacity: 0.5;
-}
-
-.lingua {
-  padding-right: 15px;
-  display: inline;
-  margin-left: 5%;
-}
-
 .quemsou {
   margin-top: 10%;
-  padding-left: 40%;
-  margin-right: 200;
+  padding-left: 10%;
+  margin-right: 15%;
   text-align: justify;
 }
 
 #textoquemsou {
+  margin-top: 50px;
   text-align: justify;
   font-family: 'Actor', sans-serif;
   line-height: 1.5;
@@ -103,11 +176,6 @@ ul {
 
 #Trybe:hover {
   color: #006400;;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 #cruzeiro:hover {
@@ -156,40 +224,13 @@ a {
   80% {left: 80%; color:#000000}
   100% {left: 100%; color:#FFFFFF}
 }
-
-footer {
-  background-color: #000000;
-  width: 100%;
-  height: 120px;
-  display: flex;
-  color: #FFFFFF;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items:baseline;
-  justify-content: space-evenly;
-}
-
-footer p {
-  border-style: solid;
-  border-color: gray;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-footer a {
-  text-decoration: none;
-  color: #FFFFFF
-}
-
-footer a::hover {
-  background-color: blue;
-}
-  
+ 
 .tecnologias {
   background-color: #FFFFFF;
-  height: 550px;
   width: 100%;
-  margin-top: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
 }
 
 #tech {
@@ -204,6 +245,7 @@ footer a::hover {
   margin-left: 180px;
   margin-top: 5px;
   font-size: 20px;
+  list-style:lower-greek;
 }
 
 .tech:hover {
@@ -269,6 +311,35 @@ li .tech {
   max-height: 50px;
 }
 
+footer {
+  background-color: #000000;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items:baseline;
+  justify-content: space-evenly;
+}
+
+footer p {
+  border-style: solid;
+  border-color: gray;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+footer a::hover {
+  background-color: blue;
+}
+
 #footgmail a {
   display: flex;
   justify-content: center;
@@ -276,6 +347,13 @@ li .tech {
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+#github2 {
+  width: 30px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
 }
 
 #footgit a {
@@ -298,4 +376,150 @@ li .tech {
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 375px){
+  
+  nav ul {
+    marker: none;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .menu {
+    height: 40px;
+  }
+
+  #menumobile {
+    display: block;
+    width: 40px;
+    background-color: white;
+}
+
+.itemMenuMobile {
+  border-bottom: solid 1px white;
+  padding: 8px 0;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+}
+
+  #Home {
+    display: none;
+  }
+
+  #Hometext {
+    display: none;
+  }
+
+  #Theology {
+    display: none;
+  }
+
+  #IT {
+    display: none;
+  }
+  
+  #Law {
+    display: none;
+  }
+
+  #Others {
+    display: none;
+  }
+
+  .lingua {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 12px;
+  }
+  
+  .foto {
+    flex-direction: column;
+  }
+
+  .imagem {
+    max-width: 100px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #textoquemsou {
+    margin-top: 40px;
+  }
+
+  .tech {
+    margin-top: 5px;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+  }
+
+  #tech {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .tecnologias ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+  }
+
+  #footgmail {
+    align-self: center;
+  }
+
+  #footgit{
+    align-self: center;
+  }
+
+  #footlinked{
+    align-self: center;
+  }
+
+  #gmail {
+    margin-left: 0;
+  }
+  
+  #github2 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #linkedin {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  footer div a img {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  footer div a {
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+  }
+
 }
