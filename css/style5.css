@@ -1,4 +1,3 @@
-@media screen and (min-width: 928px){
 * {              
   margin: 0;
   color: #000000;
@@ -304,7 +303,11 @@ nav ul a li {
 
 #linkedin {
   width: 30px;
-  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#linkedinimg {
+  width: 30px;
   margin-bottom: 10px;
 }
 
@@ -377,6 +380,533 @@ footer a::hover {
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+@media screen and (min-width: 928px){
+* {              
+  margin: 0;
+  color: #000000;
+}
+
+header {
+  display: flex;
+}
+
+html, body {
+  height: 100%;
+}
+
+#menumobile{
+  display: none;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  list-style: none;
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  max-height: 10%;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 120%;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  marker: none;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 0px;
+  height: 30px;
+  margin-top: 0;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#home {
+  background-color: aliceblue;
+  width: 100%;
+  list-style: none;
+  max-height: 10%;
+  height: 30px;
+  padding-top: 0;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+#imghome:hover {
+  background-color: darkgrey;
+}
+
+#Hometext {
+  display: none;
+}
+
+#Theology:hover {
+  background-color: #9966CC;
+  color: whitesmoke;
+}
+
+#IT:hover {
+  background-color: rgb(41, 40, 40);
+  color: whitesmoke;
+}
+
+#Law:hover {
+  background-color: #9b111e;
+  color: whitesmoke;
+}
+
+#Others:hover {
+  background-color: #080d3f;
+  color: whitesmoke;
+}
+
+#imghome {
+  height: 20px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul a li {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  overflow-wrap: normal;
+}
+
+.band {
+  padding-right: 30px;
+  width: 20px;
+  height: 15px;
+}
+
+.band:hover {
+  opacity: 0.5;
+}
+
+.lingua {
+  margin-top: 5px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.foto {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 64px;
+  background-color:darkgrey;
+}
+
+.marginTrue {
+  padding-top: 240px;
+}
+
+.imagem {
+  border-radius: 55%;
+  border-style: solid;
+  border-width: 5px;
+  border-color:whitesmoke;
+  margin-left: 15%;
+  margin-top: 10%;
+  float: left;
+  max-height: 250px;
+  animation-name: fotografia;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fotografia {
+  from {margin-left: -400px; transform: rotate(0);}
+  to {left: 300px; transform: rotate(360deg)}
+}
+
+.quemsou {
+  margin-top: 10%;
+  padding-left: 10%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+#textoquemsou {
+  margin-top: 50px;
+  text-align: justify;
+  font-family: 'Actor', sans-serif;
+  line-height: 1.5;
+}
+
+#nome{
+  font-family: 'Oldenburg', cursive;
+  font-size: 200%;
+}
+
+#Trybe:hover {
+  color: #006400;;
+}
+
+#cruzeiro:hover {
+  color: chocolate;
+}
+
+#uff:hover {
+  color:midnightblue;
+}
+
+#IGTI:hover {
+  color:rgb(112, 71, 25);
+}
+
+#DIO:hover {
+  color:rgba(238, 238, 234, 0.541);
+}
+
+#IFRO:hover {
+  color:rgb(112, 25, 25);
+}
+
+.nome1 {
+  animation-name: nome1;
+  animation-duration: 5s;
+}
+
+.nome2 {
+  animation-name: nome2;
+  animation-duration: 5s;
+}
+
+@keyframes nome1 {
+  0% {left: 0%; color:#FFFFFF}
+  20% {left: 20%; color: #000000;}
+  40% {left: 40%; color:#FFFFFF}
+  60% {left: 60%; color:#000000}
+  80% {left: 80%; color:#FFFFFF}
+  100% {left: 100%; color:#000000}
+  }
+
+@keyframes nome2 {
+  20% {left: 20%; color: #FFFFFF;}
+  40% {left: 40%; color:#000000}
+  60% {left: 60%; color:#FFFFFF}
+  80% {left: 80%; color:#000000}
+  100% {left: 100%; color:#FFFFFF}
+}
+ 
+.tecnologias {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+#tech {
+  margin-left: 180px;
+  padding-top: 50px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.tech {
+  font-family: 'Share Tech Mono', monospace;
+  padding-top: 15px;
+  margin-left: 180px;
+  margin-top: 5px;
+  font-size: 20px;
+  list-style:lower-greek;
+}
+
+.tech:hover {
+  color:darkblue;
+}
+
+#html {
+  width: 30px;
+  margin-left: 10px;
+}
+
+#css {
+  width: 20px;
+  margin-left: 25px;
+}
+
+#js {
+  width: 40px;
+  height: 35px;
+  margin-left: 20px;
+}
+
+#github {
+  width: 30px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+
+#git {
+  width: 30px;
+  margin-left: 25px;
+}
+
+#linux {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#python {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#sql {
+  width: 30px;
+  margin-left: 30px;
+}
+
+#gmail {
+  width: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#linkedinimg {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+#linkedin {
+  margin-bottom: 10px;
+}
+
+li .tech {
+  max-height: 50px;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items:baseline;
+  justify-content: space-evenly;
+}
+
+footer p {
+  border-style: solid;
+  border-color: gray;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+footer a::hover {
+  background-color: blue;
+}
+
+#footgmail a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+#github2 {
+  width: 30px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+
+#footgit a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+#footgit a img{
+  margin-bottom: 10px;
+}
+
+#footlinked a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 674px) and (max-width: 927px){
+
+  .menu {
+    display: block;
+  }
+  
+  .marginTrue {
+    padding-top: 240px;
+  }
+
+  .foto {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .imagem {
+    max-width: 150px;
+    margin: 20px auto;
+  }
+
+  .quemsou {
+    margin-top: 5%;
+  }
+
+  #nome {
+    text-align: center;
+  }
+
+  #tech {
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .tech {
+    margin-left: 0%;
+    text-align: center;
+    list-style-position:inside
+  }
+
+  #linkedin {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 673px){
+
+  nav ul {
+    marker: none;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .menu {
+    height: 40px;
+  }
+
+  #menumobile {
+    display: block;
+    width: 40px;
+    background-color: white;
+}
+
+.marginTrue {
+  padding-top: 240px;
+}
+
+.itemMenuMobile {
+  border-bottom: solid 1px white;
+  padding: 8px 0;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+}
+
+  #Home {
+    display: none;
+  }
+
+  #Hometext {
+    display: none;
+  }
+
+  #Theology {
+    display: none;
+  }
+
+  #IT {
+    display: none;
+  }
+  
+  #Law {
+    display: none;
+  }
+
+  #Others {
+    display: none;
+  }
+
+  .lingua {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 12px;
+  }
+
+  .foto {
+    flex-direction: column;
+  }
+
+  .imagem {
+    max-width: 150px;
+    margin: 20px auto;
+  }
+
+  .quemsou {
+    margin-top: 5%;
+  }
+
+  #nome {
+    text-align: center;
+  }
+
+  #tech {
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .tech {
+    margin-left: 0%;
+    text-align: center;
+    list-style-position:inside
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 626px){
+  #linkedin {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -456,18 +986,15 @@ footer a::hover {
     margin-top: 40px;
   }
 
-  .tech {
-    margin-top: 5px;
-    font-size: 20px;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
-    align-items: center;    
+  #tech {
+    margin-left: 0%;
+    text-align: center;
   }
 
-  #tech {
-  margin-left: auto;
-  margin-right: auto;
+  .tech {
+    margin-left: 0%;
+    text-align: center;
+    list-style-position:inside
   }
 
   .tecnologias ul {
@@ -522,5 +1049,4 @@ footer a::hover {
     align-content: center;
     justify-content: center;
   }
-
 }
