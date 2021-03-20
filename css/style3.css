@@ -126,8 +126,8 @@ nav ul a li {
 
 .foto {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 64px;
+  flex-direction: column;
+  height: 100vh;
   background-color:#9966CC;
 }
 
@@ -135,18 +135,8 @@ nav ul a li {
   padding-top: 240px;
 }
 
-.imagem {
-  border-radius: 55%;
-  border-style: solid;
-  border-width: 5px;
-  border-color:whitesmoke;
-  margin-left: 15%;
-  margin-top: 10%;
-  float: left;
-  max-height: 250px;
-  animation-name: fotografia;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+#protestantReform {
+  margin: 0 auto;
 }
 
 @keyframes fotografia {
@@ -224,11 +214,11 @@ nav ul a li {
   100% {left: 100%; color:#FFFFFF}
 }
  
-.tecnologias {
+.teologias {
   background-color: #FFFFFF;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: 50px;
 }
 
@@ -511,171 +501,26 @@ nav ul a li {
 .foto {
   display: flex;
   flex-direction: row;
-  padding-bottom: 64px;
-  background-color:darkgrey;
 }
 
 .marginTrue {
   padding-top: 240px;
 }
 
+#artigos {
+  flex-basis: 40%;
+}
+
 .imagem {
-  border-radius: 55%;
-  border-style: solid;
-  border-width: 5px;
-  border-color:whitesmoke;
-  margin-left: 15%;
-  margin-top: 10%;
-  float: left;
-  max-height: 250px;
-  animation-name: fotografia;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+  flex-basis: 60%;
 }
 
-@keyframes fotografia {
-  from {margin-left: -400px; transform: rotate(0);}
-  to {left: 300px; transform: rotate(360deg)}
-}
-
-.quemsou {
-  margin-top: 10%;
-  padding-left: 10%;
-  margin-right: 15%;
-  text-align: justify;
-}
-
-#textoquemsou {
-  margin-top: 50px;
-  text-align: justify;
-  font-family: 'Actor', sans-serif;
-  line-height: 1.5;
-}
-
-#nome{
-  font-family: 'Oldenburg', cursive;
-  font-size: 200%;
-}
-
-#Trybe:hover {
-  color: #006400;;
-}
-
-#cruzeiro:hover {
-  color: chocolate;
-}
-
-#uff:hover {
-  color:midnightblue;
-}
-
-#IGTI:hover {
-  color:rgb(112, 71, 25);
-}
-
-#DIO:hover {
-  color:rgba(238, 238, 234, 0.541);
-}
-
-#IFRO:hover {
-  color:rgb(112, 25, 25);
-}
-
-.nome1 {
-  animation-name: nome1;
-  animation-duration: 5s;
-}
-
-.nome2 {
-  animation-name: nome2;
-  animation-duration: 5s;
-}
-
-@keyframes nome1 {
-  0% {left: 0%; color:#FFFFFF}
-  20% {left: 20%; color: #000000;}
-  40% {left: 40%; color:#FFFFFF}
-  60% {left: 60%; color:#000000}
-  80% {left: 80%; color:#FFFFFF}
-  100% {left: 100%; color:#000000}
-  }
-
-@keyframes nome2 {
-  20% {left: 20%; color: #FFFFFF;}
-  40% {left: 40%; color:#000000}
-  60% {left: 60%; color:#FFFFFF}
-  80% {left: 80%; color:#000000}
-  100% {left: 100%; color:#FFFFFF}
-}
- 
-.tecnologias {
+.teologias {
   background-color: #FFFFFF;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
-}
-
-#tech {
-  margin-left: 180px;
-  padding-top: 50px;
-  font-family: 'Share Tech Mono', monospace;
-}
-
-.tech {
-  font-family: 'Share Tech Mono', monospace;
-  padding-top: 15px;
-  margin-left: 180px;
-  margin-top: 5px;
-  font-size: 20px;
-  list-style:lower-greek;
-}
-
-.tech:hover {
-  color:darkblue;
-}
-
-#html {
-  width: 30px;
-  margin-left: 10px;
-}
-
-#css {
-  width: 20px;
-  margin-left: 25px;
-}
-
-#js {
-  width: 40px;
-  height: 35px;
-  margin-left: 20px;
-}
-
-#github {
-  width: 30px;
-  margin-left: 25px;
-  background-color: #FFFFFF;
-  border-radius: 100%;
-}
-
-#git {
-  width: 30px;
-  margin-left: 25px;
-}
-
-#linux {
-  width: 30px;
-  margin-left: 30px;
-}
-
-#python {
-  width: 30px;
-  margin-left: 30px;
-}
-
-#sql {
-  width: 30px;
-  margin-left: 30px;
+  flex-direction: row;
+  flex-basis: 100%;
 }
 
 #gmail {
@@ -691,10 +536,6 @@ nav ul a li {
 
 #linkedin {
   margin-bottom: 10px;
-}
-
-li .tech {
-  max-height: 50px;
 }
 
 footer {
@@ -776,6 +617,7 @@ footer a::hover {
   }
 
   .foto {
+    background-image: url('../reforma.jpg');
     flex-direction: column;
     padding-top: 40px;
   }
@@ -783,25 +625,6 @@ footer a::hover {
   .imagem {
     max-width: 150px;
     margin: 20px auto;
-  }
-
-  .quemsou {
-    margin-top: 5%;
-  }
-
-  #nome {
-    text-align: center;
-  }
-
-  #tech {
-    margin-left: 0%;
-    text-align: center;
-  }
-
-  .tech {
-    margin-left: 0%;
-    text-align: center;
-    list-style-position:inside
   }
 
   #linkedin {
@@ -996,7 +819,7 @@ footer a::hover {
     list-style-position:inside
   }
 
-  .tecnologias ul {
+  .teologias ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
