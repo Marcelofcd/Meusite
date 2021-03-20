@@ -131,12 +131,21 @@ nav ul a li {
   background-color:#9966CC;
 }
 
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  
+}
+
 .marginTrue {
   padding-top: 240px;
 }
 
 #protestantReform {
   margin: 0 auto;
+  z-index: 0;
 }
 
 @keyframes fotografia {
@@ -617,7 +626,6 @@ footer a::hover {
   }
 
   .foto {
-    background-image: url('../reforma.jpg');
     flex-direction: column;
     padding-top: 40px;
   }
