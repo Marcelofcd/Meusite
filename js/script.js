@@ -2,6 +2,7 @@ let english = document.querySelector('#english');
 english.addEventListener('click', ChangeToEnglish);
 let brazil = document.querySelector('#brazil');
 brazil.addEventListener('click', ChangeToPortuguese);
+let home = document.querySelector('#Hometext');
 let theology = document.querySelector('#Theology');
 let it = document.querySelector('#IT');
 let law = document.querySelector('#Law');
@@ -26,6 +27,7 @@ let uff = document.querySelector('#uff');
 let linkedin = document.querySelector('#linkedin');
 
 function ChangeToEnglish() {
+  home.innerHTML = 'Home';
   theology.innerHTML = 'Theology';
   it.innerHTML = 'Information Technoly';
   law.innerHTML = 'Law';
@@ -51,6 +53,7 @@ function ChangeToEnglish() {
 }
 
 function ChangeToPortuguese() {
+  home.innerHTML = 'Home';
   theology.innerHTML = 'Teologia';
   it.innerHTML = 'Tecnologia da Informação';
   law.innerHTML = 'Direito';

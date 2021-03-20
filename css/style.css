@@ -10,6 +10,10 @@ html, body {
   height: 100%;
 }
 
+#menumobile{
+  display: none;
+}
+
 .menu {
   position: relative;
   display: flex;
@@ -54,6 +58,10 @@ nav ul {
 
 #imghome:hover {
   background-color: darkgrey;
+}
+
+#Hometext {
+  display: none;
 }
 
 #Theology:hover {
@@ -122,6 +130,10 @@ nav ul a li {
   background-color:darkgrey;
 }
 
+.marginTrue {
+  padding-top: 240px;
+}
+
 .imagem {
   border-radius: 55%;
   border-style: solid;
@@ -149,6 +161,7 @@ nav ul a li {
 }
 
 #textoquemsou {
+  margin-top: 50px;
   text-align: justify;
   font-family: 'Actor', sans-serif;
   line-height: 1.5;
@@ -371,10 +384,55 @@ footer a::hover {
     padding: 0;
   }
 
+  .menu {
+    height: 40px;
+  }
+
+  #menumobile {
+    display: block;
+    width: 40px;
+    background-color: white;
+}
+
+.itemMenuMobile {
+  border-bottom: solid 1px white;
+  padding: 8px 0;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+}
+
+  #Home {
+    display: none;
+  }
+
+  #Hometext {
+    display: none;
+  }
+
+  #Theology {
+    display: none;
+  }
+
+  #IT {
+    display: none;
+  }
+  
+  #Law {
+    display: none;
+  }
+
+  #Others {
+    display: none;
+  }
 
   .lingua {
     position: absolute;
     margin-left: 65%;
+    margin-top: 12px;
   }
   
   .foto {
@@ -385,10 +443,14 @@ footer a::hover {
     max-width: 100px;
     margin: 20px auto;
   }
-
+  
   h2 {
     font-size: 16px;
     text-align: center;
+  }
+
+  #textoquemsou {
+    margin-top: 40px;
   }
 
   .tech {
