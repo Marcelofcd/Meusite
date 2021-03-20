@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='pt-br'>
     <head>
         <title> Marcelo F C Dantas </title>
@@ -13,11 +14,13 @@
 
             <nav class="menu">
                 <ul>
-                        <li id="Home"><a href="#Home"><img src="/foto/home.png" id="imghome"> </a></li>
-                        <li id="Theology"><a href="teologia.html">  </a> </li>
-                        <li id="IT"> <a href="TI.html">  </a> </li>
-                        <li id="Law"> <a href="direito.html">  </a> </li>
-                        <li id="Others"> <a href="outros.html">  </a> </li>
+                        <img id="menumobile" src="/foto/menu.png">
+                        <a href="#Home"><li id="Home"><img src="/foto/home.png" id="imghome"></li></a>
+                        <a href="#Home"><li id="Hometext" class="itemMenuMobile"></li></a>
+                        <a href="teologia.html"><li id="Theology" class="itemMenuMobile"></li>  </li></a> 
+                        <a href="TI.html"><li id="IT" class="itemMenuMobile"> </li></a>
+                        <a href="direito.html"><li id="Law" class="itemMenuMobile">  </li></a>
+                        <a href="outros.html"><li id="Others" class="itemMenuMobile"> </li></a>
                     <div class="lingua">
                         <a href="#brazil"><img class="band" id='brazil' src="foto/brazil.png" alt="português"/></a>
                         <a href="#english"><img class="band" id='english' src="foto/america.png" alt="english"/></div></a>
@@ -31,7 +34,6 @@
                 <img class="imagem" src="foto/foto.png" alt="foto de Marcelo"/>
             <div class="quemsou">
                 <h2 id='nome'><span class="nome1"> Marcelo <span class="nome2">Figueira</span> <span class="nome1">Correa</span> <span class="nome2">Dantas</span></h2>
-                <br>
                 <p id="textoquemsou"><span id='text1'> </span>
                     <br>
                     <span id='text2'></span>
@@ -59,7 +61,7 @@
                 <li class="tech">SQL<img src="mysql.svg" id="sql"></li>
             </ul>
         </section>
-        <footer>
+      <footer>
             <div id="footgmail">
                 <a href='malito:marcelofcdeveloper@gmail.com' target="_blank">
                     <img src="gmail.svg" id="gmail">marcelofcdeveloper@gmail.com
@@ -67,15 +69,17 @@
             </div>        
             <div id="footgit">
                 <a href='https://github.com/Marcelofcdantas' target="_blank">
-                    <img src="github.svg" id="github">https://github.com/Marcelofcdantas
+                    <img src="github.svg" id="github2">github.com/Marcelofcdantas
                 </a>
             </div>
             <div id="footlinked">
                 <a href='https://www.linkedin.com/in/marcelofcdantas/' id='linkedin' target="_blank"> 
-                    <img src="linkedin.svg" id="linkedin">https://www.linkedin.com/in/marcelofcdantas/ 
+                    <img src="linkedin.svg" id="linkedin">www.linkedin.com/in/marcelofcdantas/ 
                 </a>
             </div>
         </footer>
+        <script src="js/jquery.js"></script>
         <script src="js/script.js"> </script>
+        <script src="js/menu.js"> </script>
     </body>
 </html>

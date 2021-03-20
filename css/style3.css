@@ -3,7 +3,7 @@
 }
 
 html, body {
-  background-color:#c8a2c8;
+  background-color:#9966CC;
   height: 100%;
 }
 
@@ -39,6 +39,7 @@ nav ul li {
   margin-left: 140px;
   height: 80px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 ul {

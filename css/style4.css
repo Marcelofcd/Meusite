@@ -39,6 +39,7 @@ nav ul li {
   margin-left: 140px;
   height: 80px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 ul {
