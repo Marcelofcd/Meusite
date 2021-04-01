@@ -126,8 +126,19 @@ nav ul a li {
 
 .foto {
   display: flex;
-  flex-direction: row;
-  background-color:rgb(41, 40, 40);;
+  flex-direction: column;
+  height: 100vh;
+  background-color:rgb(41, 40, 40);
+  background-image: url("/foto/computer.png");
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px rgb(41, 40, 40);
+  text-align: center;
+  width: 100%;
+  align-self: center;
 }
 
 .marginTrue {

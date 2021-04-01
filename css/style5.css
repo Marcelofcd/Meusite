@@ -127,9 +127,19 @@ nav ul a li {
 
 .foto {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 64px;
-  background-color:darkgrey;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("/foto/library.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px #080d3f;
+  text-align: center;
+  width: 100%;
+  align-self: center;
 }
 
 .marginTrue {

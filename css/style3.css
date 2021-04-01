@@ -129,14 +129,18 @@ nav ul a li {
   flex-direction: column;
   height: 100vh;
   background-color:#9966CC;
+  background-image: url('/foto/reforma.jpg');
+  background-size: cover;
 }
+
 
 h1 {
   font-size: 50px;
   color: white;
+  text-shadow: 2px 2px #9966CC;
   text-align: center;
-  z-index: 1;
-  
+  width: 100%;
+  align-self: center;
 }
 
 .marginTrue {
@@ -147,88 +151,15 @@ h1 {
   margin: 0 auto;
   z-index: 0;
 }
-
-@keyframes fotografia {
-  from {margin-left: -400px; transform: rotate(0);}
-  to {left: 300px; transform: rotate(360deg)}
-}
-
-.quemsou {
-  margin-top: 10%;
-  padding-left: 10%;
-  margin-right: 15%;
-  text-align: justify;
-}
-
-#textoquemsou {
-  margin-top: 50px;
-  text-align: justify;
-  font-family: 'Actor', sans-serif;
-  line-height: 1.5;
-}
-
-#nome{
-  font-family: 'Oldenburg', cursive;
-  font-size: 200%;
-}
-
-#Trybe:hover {
-  color: #006400;;
-}
-
-#cruzeiro:hover {
-  color: chocolate;
-}
-
-#uff:hover {
-  color:midnightblue;
-}
-
-#IGTI:hover {
-  color:rgb(112, 71, 25);
-}
-
-#DIO:hover {
-  color:rgba(238, 238, 234, 0.541);
-}
-
-#IFRO:hover {
-  color:rgb(112, 25, 25);
-}
-
-.nome1 {
-  animation-name: nome1;
-  animation-duration: 5s;
-}
-
-.nome2 {
-  animation-name: nome2;
-  animation-duration: 5s;
-}
-
-@keyframes nome1 {
-  0% {left: 0%; color:#FFFFFF}
-  20% {left: 20%; color: #000000;}
-  40% {left: 40%; color:#FFFFFF}
-  60% {left: 60%; color:#000000}
-  80% {left: 80%; color:#FFFFFF}
-  100% {left: 100%; color:#000000}
-  }
-
-@keyframes nome2 {
-  20% {left: 20%; color: #FFFFFF;}
-  40% {left: 40%; color:#000000}
-  60% {left: 60%; color:#FFFFFF}
-  80% {left: 80%; color:#000000}
-  100% {left: 100%; color:#FFFFFF}
-}
  
 .teologias {
   background-color: #FFFFFF;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
+}
+
+#artigos {
+  flex-basis: 50%;
 }
 
 #tech {
@@ -248,49 +179,6 @@ h1 {
 
 .tech:hover {
   color:darkblue;
-}
-
-#html {
-  width: 30px;
-  margin-left: 10px;
-}
-
-#css {
-  width: 20px;
-  margin-left: 25px;
-}
-
-#js {
-  width: 40px;
-  height: 35px;
-  margin-left: 20px;
-}
-
-#github {
-  width: 30px;
-  margin-left: 25px;
-  background-color: #FFFFFF;
-  border-radius: 100%;
-}
-
-#git {
-  width: 30px;
-  margin-left: 25px;
-}
-
-#linux {
-  width: 30px;
-  margin-left: 30px;
-}
-
-#python {
-  width: 30px;
-  margin-left: 30px;
-}
-
-#sql {
-  width: 30px;
-  margin-left: 30px;
 }
 
 #gmail {
@@ -351,11 +239,8 @@ footer a::hover {
   width: 100%;
 }
 
-#github2 {
+#github {
   width: 30px;
-  margin-left: 25px;
-  background-color: #FFFFFF;
-  border-radius: 100%;
 }
 
 #footgit a {
@@ -521,15 +406,13 @@ nav ul a li {
 }
 
 .imagem {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 
 .teologias {
   background-color: #FFFFFF;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
 }
 
 #gmail {
