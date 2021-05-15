@@ -68,11 +68,11 @@ function ChangeToPortuguese() {
   whoAmI5.innerHTML = ' e o curso de ';
   IFRO.innerHTML = 'Administrador de Banco de Dados do IFRO.';
   whoAmI6.innerHTML = 'Estou estudando';
-  trybe.innerHTML = 'desenvolvimento web na Trybe';
+  trybe.innerHTML = 'Desenvolvimento Web na Trybe';
   whoAmI7.innerHTML = ' e cursando faculdade de ';
-  cruzeiro.innerHTML = 'Análise e desenvolvimento de sistemas na Universidade Cruzeiro do Sul';
+  cruzeiro.innerHTML = 'Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul';
   whoAmI8.innerHTML = ' e ';
-  uff.innerHTML = 'Sistemas da computação na UFF.';
+  uff.innerHTML = 'Sistemas da Computação na UFF.';
   whoAmI9.innerHTML = 'Gosto de ler e, preciso, estar sempre estudando alguma coisa.';
   whoAmI10.innerHTML = 'Sou movido a desafios, resiliente, curioso e aprendo rápido, gosto de trabalhar com pessoas que me inspiram e exigem o meu melhor.';
   ChangeLinkPortuguese();
